@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend-lab12
-          image: miseonk1/frontend-lab12
+          image: miseonk1/front-service
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
